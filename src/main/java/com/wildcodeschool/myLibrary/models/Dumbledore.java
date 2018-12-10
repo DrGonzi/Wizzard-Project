@@ -1,5 +1,8 @@
 package com.wildcodeschool.myLibrary.models;
 
+import org.springframework.stereotype.Component;
+
+
 public class Dumbledore implements WizardInterface{
 	
 private Outfit outfit;
@@ -16,7 +19,7 @@ private Outfit outfit;
 
 @Override
 public String giveAdvice() {
-	return "Run you fools!";
+	return "Listen Harry...";
 	
 }
 
